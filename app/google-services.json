@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "511851982203",
+    "firebase_url": "https://veggiefy-d9aa4-default-rtdb.firebaseio.com",
+    "project_id": "veggiefy-d9aa4",
+    "storage_bucket": "veggiefy-d9aa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511851982203:android:6f9b30daa211f9962921de",
+        "android_client_info": {
+          "package_name": "com.example.veggiefy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511851982203-8vtiu6k9q1hv6ql0vu6cjslks8vibdo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCcg0GlVtQXiNC7E_VbU0pVMQ2DndYTFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511851982203-8vtiu6k9q1hv6ql0vu6cjslks8vibdo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511851982203:android:b38597cdafadb4592921de",
+        "android_client_info": {
+          "package_name": "in.veggiefy.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511851982203-8vtiu6k9q1hv6ql0vu6cjslks8vibdo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCcg0GlVtQXiNC7E_VbU0pVMQ2DndYTFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511851982203-8vtiu6k9q1hv6ql0vu6cjslks8vibdo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

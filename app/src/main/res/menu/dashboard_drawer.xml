@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_market"
+            android:icon="@drawable/ic_store"
+            android:title="@string/menu_market" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_profile" />
+
+
+        <item
+            android:id="@+id/nav_ordershistory"
+            android:icon="@drawable/ic_history"
+            android:title="@string/orders" />
+    </group>
+
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_helpandsupport"
+            android:icon="@drawable/ic_helpandsuport"
+            android:title="@string/menu_helpandsupport" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

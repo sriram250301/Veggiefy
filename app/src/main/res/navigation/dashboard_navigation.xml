@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_market">
+
+    <fragment
+        android:id="@+id/nav_market"
+        android:name="in.veggiefy.androidapp.ui.maindashboard.market.MarketFragment"
+        android:label="@string/menu_market"
+        tools:layout="@layout/fragment_market" />
+
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="in.veggiefy.androidapp.ui.maindashboard.profile.Profile"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
+        android:id="@+id/nav_ordershistory"
+        android:name="in.veggiefy.androidapp.ui.maindashboard.orders.Orders"
+        android:label="@string/menu_ordershistory"
+        tools:layout="@layout/activity_orders" />
+    <fragment
+        android:id="@+id/nav_helpandsupport"
+        android:name="in.veggiefy.androidapp.ui.maindashboard.helpandsupport.HelpAndSupportFragment"
+        android:label="fragment_help_and_support"
+        tools:layout="@layout/fragment_help_and_support" />
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="in.veggiefy.androidapp.ui.logout.Logout"
+        android:label="activity_logout"
+        tools:layout="@layout/activity_logout" />
+</navigation>

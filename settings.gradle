@@ -1,0 +1,11 @@
+include ':library'
+include ':numberpicker'
+include ':library'
+include ':placepicker'
+include ':library'
+include ':numberpicker'
+include ':library'
+include ':library'
+include ':library'
+include ':app'
+rootProject.name = "Veggiefy"

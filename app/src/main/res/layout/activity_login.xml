@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/verif"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.veggiefy.androidapp.ui.login.LoginActivity">
+
+    <EditText
+        android:id="@+id/phone_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/etbackground"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/sniglet"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:selectAllOnFocus="false"
+        android:textColorHighlight="#939393"
+        android:textIsSelectable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="113dp"
+        android:layout_height="29dp"
+        android:background="@drawable/etbackground"
+        android:fontFamily="@font/sniglet"
+        android:padding="6dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="3dp"
+        android:text="@string/already_a_user"
+        android:textColor="#373737"
+        app:layout_constraintBottom_toTopOf="@+id/send_otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_edittext"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <Button
+        android:id="@+id/send_otp"
+        android:layout_width="158dp"
+        android:layout_height="57dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/send_otp"
+        android:textColor="@color/teal_700"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/register"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

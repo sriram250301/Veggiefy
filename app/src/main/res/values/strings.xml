@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Veggiefy</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_otp">"  Enter OTP"</string>
+    <string name="title_activity_user_verification">UserVerification</string>
+    <string name="title_activity_new_registration">NewRegistration</string>
+    <string name="set_password">Set a Password</string>
+    <string name="name_hint">Name of your business</string>
+    <string name="prompt_name">Your name</string>
+
+    <string-array name="vendor_type">
+        <item>Choose your Business Category</item>
+        <item>Whole-seller</item>
+        <item>Mini-wholeseller</item>
+        <item>Caterer</item>
+        <item>Retailer</item>
+    </string-array>
+    <string name="title_activity_new_registration_personal">NewRegistrationPersonal</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_market">MARKET</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_ordershistory">Orders history</string>
+    <string name="menu_helpandsupport">Help and support</string>
+    <string name="menu_logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_cart">Cart</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+
+    <string name="veggiefy">VEGGIEFY</string>
+    <string name="phone_number">Phone number</string>
+    <string name="already_a_user">Already a user?</string>
+    <string name="verify">VERIFY</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="otp_verification">OTP VERIFICATION</string>
+    <string name="email">Email</string>
+    <string name="next_page">NEXT PAGE</string>
+    <string name="business_registration">BUSINESS REGISTRATION</string>
+    <string name="add_images_of_your_business">Add images of your shop</string>
+    <string name="market">MARKET</string>
+    <string name="shop_pay_get_delivered">Shop . Pay . Get delivered.</string>
+    <string name="vegetables">VEGETABLES</string>
+    <string name="fruits">FRUITS</string>
+    <string name="pulses">PULSES</string>
+    <string name="cereals">CEREALS</string>
+    <string name="dairy">DAIRY</string>
+    <string name="meat">MEAT</string>
+    <string name="product_segment">Product Segment</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="send_otp">SEND OTP</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="your_details">YOUR DETAILS</string>
+    <string name="location_for_delivery">LOCATION FOR DELIVERY</string>
+    <string name="select_from_map">SELECT FROM MAP</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="delivery_address">Delivery address</string>
+    <string name="key_google_apis_android">AIzaSyApTssphFZSh0aZvLoET9hLhgB1PGBrZto</string>
+    <string name="finish">FINISH</string>
+    <string name="unserviceable_location">Uh oh, The selected location is unserviceable</string>
+    <string name="personal_info">PERSONAL INFO</string>
+    <string name="business_info">BUSINESS INFO</string>
+    <string name="orders">Orders</string>
+    <string name="title_activity_profile">ScrollingActivity</string>
+    <string name="view_cart">VIEW CART</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="pick_up">PICK UP</string>
+    <string name="choose_payment_method">CHOOSE PAYMENT METHOD</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+
+</resources>

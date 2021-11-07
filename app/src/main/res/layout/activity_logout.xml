@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.logout.Logout">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="274dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginBottom="356dp"
+        android:fontFamily="@font/sniglet"
+        android:text="Are you sure you want to logout ?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logout_pic_foreground" />
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/fls_yes"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/no_button"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="229dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/fls_no"
+        android:textColor="#454545"
+        app:layout_constraintBottom_toBottomOf="@+id/yes_button"
+        app:layout_constraintStart_toEndOf="@+id/yes_button"
+        app:layout_constraintTop_toTopOf="@+id/yes_button"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

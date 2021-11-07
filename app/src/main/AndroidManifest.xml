@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.veggiefy.androidapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Veggiefy"
+        tools:replace="android:icon,android:theme,android:allowBackup">
+        <activity android:name=".ui.login.existinguser.SignInVerication" />
+        <activity android:name=".ui.maindashboard.orders.orderview.OrderView" />
+        <activity android:name=".ui.maindashboard.profile.ProfileEdit" />
+        <activity android:name=".ui.payment.Payment" />
+        <activity android:name=".ui.checkout.Checkout" />
+        <activity android:name=".ui.addtocart.AddToCart" />
+        <activity
+            android:name=".ui.maindashboard.profile.Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.Veggiefy.NoActionBar" />
+        <activity android:name=".ui.maindashboard.orders.Orders" />
+        <activity android:name=".ui.logout.Logout" />
+        <activity android:name=".ui.login.newuser.ChooseLocation" />
+        <activity android:name=".ui.productview.ProductsView" />
+        <activity
+            android:name=".ui.cart.Cart"
+            android:label="@string/title_activity_cart"
+            android:theme="@style/Theme.Veggiefy.NoActionBar" />
+        <activity
+            android:name=".ui.maindashboard.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.Veggiefy.NoActionBar" />
+        <activity android:name=".ui.login.newuser.Registered" />
+        <activity
+            android:name=".ui.login.newuser.NewRegistrationPersonal"
+            android:label="@string/title_activity_new_registration_personal" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/key_google_apis_android" />
+
+        <activity
+            android:name=".ui.login.newuser.NewRegistrationBusiness"
+            android:label="@string/title_activity_new_registration" />
+        <activity
+            android:name=".ui.login.newuser.UserVerification"
+            android:label="@string/title_activity_user_verification" />
+        <activity
+            android:name=".ui.login.existinguser.ExistingUserSignIn"
+            android:label="@string/title_activity_login2" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
